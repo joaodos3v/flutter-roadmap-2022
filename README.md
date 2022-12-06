@@ -39,7 +39,7 @@ Assista primeiro:
 
 **CURSOS GRATUITOS**:
 
-- [Curso de Dart (Deivid Willyan)](https://www.youtube.com/watch?v=PgRv_aeqf-4&list=PLRpTFz5_57cseSiszvssXO7HKVzOsrI77)
+- ✅ [Curso de Dart (Deivid Willyan)](https://www.youtube.com/watch?v=PgRv_aeqf-4&list=PLRpTFz5_57cseSiszvssXO7HKVzOsrI77)
 
 **CURSOS PAGOS**:
 
