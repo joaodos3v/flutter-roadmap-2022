@@ -57,7 +57,7 @@ Após seguir os passos da sessão anterior, chegou a hora de usar as ferramentas
 
 ### Cursos gratuitos
 
-- [Flutter Curso 2022 (Flutterando)](https://www.youtube.com/playlist?list=PLlBnICoI-g-fuy5jZiCufhFip1BlBswI7)
+- ✅ [Flutter Curso 2022 (Flutterando)](https://www.youtube.com/playlist?list=PLlBnICoI-g-fuy5jZiCufhFip1BlBswI7)
 - [Catálogo de Widgets](https://docs.flutter.dev/reference/widgets)
 
 ### Cursos pagos
@@ -74,7 +74,7 @@ Nesta sessão, iremos sugerir uma sequência de assuntos que um desenvolvedor Fl
 O Flutter usa o Dart de forma declarativa. Isso significa que o desenvolvedor usa linguagem de programação para desenhar telas em vez de linguagem de marcação como HTML, XML ou XAML.
 Por esse motivo é recomendado que o desenvolvedor já domine os conceitos de POO e Lógica de programação.
 
-Retorne a sessão [Escrever Códigos](#🧑🏻‍💻-escrever-códigos) para dicas de cursos sobre esses dois assuntos.
+Retorne a sessão [Escrever Códigos](#-escrever-códigos) para dicas de cursos sobre esses dois assuntos.
 
 ### Sintaxe do Dart
 
