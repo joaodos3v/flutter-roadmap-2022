@@ -135,7 +135,7 @@ O Provider é a recomendação da equipe do Flutter para quem está iniciando no
 
 ### Aprenda alguns Design Patterns
 
-Padrões de projetos sÃo importantes para o trabalho em equipe.
+Padrões de projetos são importantes para o trabalho em equipe.
 
 - [Repository Pattern no Flutter (balta.io)](https://www.youtube.com/watch?v=Q05t3mgaMfk)
 - [CopyWIth](https://blog.flutterando.com.br/o-padr%C3%A3o-copywith-no-flutter-dart-267e3d218ffc)
