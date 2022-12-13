@@ -74,8 +74,17 @@ class _DashboardPageState extends State<DashboardPage> {
             ],
           ),
           const TitleWidget(title: 'Live Now'),
+          const SizedBox(height: 16),
+          const LiveNowWidget(),
+          const SizedBox(height: 16),
           const TitleWidget(title: 'Popular Streamers'),
+          const SizedBox(height: 16),
+          // content
+          const SizedBox(height: 16),
           const TitleWidget(title: 'Top Categories'),
+          const SizedBox(height: 16),
+          // content
+          const SizedBox(height: 16),
         ],
       ),
     );
