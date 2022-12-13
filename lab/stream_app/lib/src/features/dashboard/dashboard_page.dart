@@ -56,7 +56,7 @@ class _DashboardPageState extends State<DashboardPage> {
         children: [
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 24.0),
-            child: TitleWidget(),
+            child: BigTitleWidget(),
           ),
           FilterChipsWidget(
             onChange: (selectedValues) {
@@ -72,7 +72,10 @@ class _DashboardPageState extends State<DashboardPage> {
               'Categories 1',
               'Food 1',
             ],
-          )
+          ),
+          const TitleWidget(title: 'Live Now'),
+          const TitleWidget(title: 'Popular Streamers'),
+          const TitleWidget(title: 'Top Categories'),
         ],
       ),
     );

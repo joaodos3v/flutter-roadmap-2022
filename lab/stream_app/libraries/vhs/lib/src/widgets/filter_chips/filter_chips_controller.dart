@@ -14,11 +14,12 @@ class FilterChipsController extends ValueNotifier<List<String>> {
       }
     } else {
       if (label == all) {
-        value = [label];
+        value = [];
       } else {
         value.remove(all);
-        value.add(label);
       }
+
+      value.add(label);
     }
 
     notifyListeners();
