@@ -53,13 +53,16 @@ class _DashboardPageState extends State<DashboardPage> {
         ],
       ),
       body: ListView(
-        children: const [
-          Padding(
+        children: [
+          const Padding(
             padding: EdgeInsets.symmetric(horizontal: 24.0),
             child: TitleWidget(),
           ),
           FilterChipsWidget(
-            filters: [
+            onChange: (selectedValues) {
+              print(selectedValues);
+            },
+            filters: const [
               'Sport',
               'Channels',
               'Categories',
