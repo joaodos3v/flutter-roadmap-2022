@@ -62,7 +62,9 @@ class LiveNowItemWidget extends StatelessWidget {
                   children: [
                     Container(
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 16, vertical: 4),
+                        horizontal: 8,
+                        vertical: 4,
+                      ),
                       decoration: BoxDecoration(
                         color: const Color(0xff68FF9B),
                         borderRadius: BorderRadius.circular(100),
@@ -75,12 +77,15 @@ class LiveNowItemWidget extends StatelessWidget {
                         ),
                       ),
                     ),
+                    const SizedBox(
+                      height: 4,
+                    ),
                     const Text(
                       'ELS ProLeague',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 14,
-                        fontWeight: FontWeight.w600,
+                        fontWeight: FontWeight.bold,
                       ),
                     ),
                     const Text(

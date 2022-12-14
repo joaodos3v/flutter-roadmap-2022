@@ -53,6 +53,7 @@ class _DashboardPageState extends State<DashboardPage> {
         ],
       ),
       body: ListView(
+        physics: const BouncingScrollPhysics(),
         children: [
           const Padding(
             padding: EdgeInsets.symmetric(horizontal: 24.0),
@@ -60,6 +61,7 @@ class _DashboardPageState extends State<DashboardPage> {
           ),
           FilterChipsWidget(
             onChange: (selectedValues) {
+              // ignore: avoid_print
               print(selectedValues);
             },
             filters: const [
@@ -79,12 +81,12 @@ class _DashboardPageState extends State<DashboardPage> {
           const SizedBox(height: 16),
           const TitleWidget(title: 'Popular Streamers'),
           const SizedBox(height: 16),
-          // content
+          const PopularStreamersWidget(),
           const SizedBox(height: 16),
           const TitleWidget(title: 'Top Categories'),
           const SizedBox(height: 16),
-          // content
-          const SizedBox(height: 16),
+          const LiveNowWidget(),
+          const SizedBox(height: 100),
         ],
       ),
     );
