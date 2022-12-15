@@ -86,9 +86,16 @@ class _DashboardPageState extends State<DashboardPage> {
           const TitleWidget(title: 'Top Categories'),
           const SizedBox(height: 16),
           const LiveNowWidget(),
-          const SizedBox(height: 100),
+          const SizedBox(height: 16),
         ],
       ),
+      bottomNavigationBar: TransparentBottomBarWidget(
+        onChange: (selectedIndex) {
+          // ignore: avoid_print
+          print(selectedIndex);
+        },
+      ),
+      extendBody: true,
     );
   }
 }
